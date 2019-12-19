@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMDataManager", "RMDataManager\RMDataManager.csproj", "{4ECD928C-5422-460A-91FB-6863DC0B6FD8}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RMData", "RMData\RMData.sqlproj", "{CA915AC1-99EE-4160-92A8-F0E378C4A205}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMDesktopUI", "RMDesktopUI\RMDesktopUI.csproj", "{12968944-B5CF-477C-A458-0CA0E83E813B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{4ECD928C-5422-460A-91FB-6863DC0B6FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4ECD928C-5422-460A-91FB-6863DC0B6FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4ECD928C-5422-460A-91FB-6863DC0B6FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA915AC1-99EE-4160-92A8-F0E378C4A205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA915AC1-99EE-4160-92A8-F0E378C4A205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA915AC1-99EE-4160-92A8-F0E378C4A205}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CA915AC1-99EE-4160-92A8-F0E378C4A205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA915AC1-99EE-4160-92A8-F0E378C4A205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA915AC1-99EE-4160-92A8-F0E378C4A205}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{12968944-B5CF-477C-A458-0CA0E83E813B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12968944-B5CF-477C-A458-0CA0E83E813B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12968944-B5CF-477C-A458-0CA0E83E813B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12968944-B5CF-477C-A458-0CA0E83E813B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
